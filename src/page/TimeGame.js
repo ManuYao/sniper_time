@@ -15,8 +15,6 @@ import {
   RestartAlt,
 } from '@mui/icons-material';
 
-import useSound from 'use-sound';
-
 const TimerGame = () => {
   const [time, setTime] = useState(10000);
   const [isRunning, setIsRunning] = useState(false);
